@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ #navbar{ 
+   align-items: center;  
+      width: 100%;
+      display: block;
+      padding: 5px;
+    
+}
+ select {
+    display: none;} 
+
+
+#navbar, .links a{
+    color:rgb(245, 243, 247);
+    text-decoration: none;
+    font-size: 20px;
+  margin:0px 10px;
+    line-height: 50px;
+    
+    
+}
+#navbar, .links a:hover{
+    
+    color:rgb(16, 19, 17)
+} 
+
+
+
+.links{
+    float:right; 
+    list-style-type: none; font: weight 200px;; 
+ 
+}
+#cardss{
+    border:2px solid rgb(202, 100, 100);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    width: 320px; 
+    margin:auto
+   
+}
+#cardss img{
+    border-top-left-radius: 15px;
+  
+}
+#cardss:hover, button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+ .q{
+    justify-content: space-around;
+    display: flex; 
+    margin-bottom:20px;}
+ button{
+    color:white;
+    background-color:rgb(190, 21, 35);
+    border-radius: 10px ;
+    border: none;
+    padding: 10px;
+}
+#icons
+{
+    margin: auto;
+     border-Top:1px solid lightgrey;
+      margin-top: 30px; 
+}
+
+
+#logo{
+     float: left; 
+padding:5px;
+    width:100%;
+    
+}
+#main{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(135, 20, 20);
+    height: 60px;
+    
+}
+.center{
+   
+        position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(236, 117, 32); 
+        
+    
+}
+#header, .center, h1{
+    
+    letter-spacing: 10px; 
+     white-space: nowrap;
+        overflow: hidden;
+       
+}
+#section{
+    width: 100%;
+      display: flex;   
+  justify-content:space-evenly; 
+  
+}
+#section::after{
+    content:"";
+    clear: both;
+    display: block;
+ }   
+
+#footer{
+    background-color:rgb(199, 104, 104);
+    height:300px;
+    color:whitesmoke;
+    margin-top: 50px;
+}
+#footer, #top div li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#top{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 30px;
+}
+
+#icons{
+    width:80%;
+    justify-content:center;
+    text-align: center;
+    display: block;
+    
+}
+#icons i{
+    margin-left:10px;
+}
+
